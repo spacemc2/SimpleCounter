@@ -1,12 +1,23 @@
+.smallNum,.smallWat {
+    background-color: rgb(19, 21, 21);
+    height: 120px;
+    color: white;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    border-radius: 10px;
+    border: 2px solid  rgb(29, 28, 28);
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}   
+.smallNum > p,i{
+    margin: auto;
+    font-size: 70px;
+    font-family: 'DM Serif Display', serif;
+}
 
-*/
+.smallWat{
+    width: 95px;
+
+}
